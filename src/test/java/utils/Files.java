@@ -32,11 +32,11 @@ public class Files {
         return new PDF(getFile(path));
     }
 
-    public static XLS getXls(String path) throws IOException {
+    public static XLS getXls(String path) {
         return new XLS(getFile(path));
     }
 
-    public static String readXlsxFromPath(String path){
+    public static String readXlsxFromPath(String path) {
         String result = "";
         XSSFWorkbook myExcelBook = null;
 

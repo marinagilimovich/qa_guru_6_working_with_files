@@ -21,6 +21,6 @@ public class DownloadedFileTest {
         File downloadedFile = $("#raw-url").download();
         String fileContent = Files.readTextFromFile(downloadedFile);
 
-        assertThat(fileContent, containsString("Selenide = 1UI Testing Framework powered by Selenium WebDriver"));
+        assertThat(fileContent, containsString("Selenide = UI Testing Framework powered by Selenium WebDriver"));
     }
 }

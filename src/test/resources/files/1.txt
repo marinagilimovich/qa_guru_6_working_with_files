@@ -1,0 +1,2 @@
+Hello, you are reading the text file.
+It's a test text file.
